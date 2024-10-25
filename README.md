@@ -50,7 +50,8 @@ Ditt projekt skall dokumenteras (varje vecka efter/under lektion) och lämnas in
 | 45 | Fortsatt arbete. Skräddarsy Bootstrap med Scss |
 | 46 | Fortsatt arbete |
 | 47 |  |
-| 48 | Inlämning |
+| 48 |  |
+| 49 | Inlämning |
 
 **Bedömningsmatris**
 
