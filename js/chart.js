@@ -3,12 +3,16 @@ const ctx = document.getElementById('myChart');
   new Chart(ctx, {
       type: 'bar',
     data: {
-      labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+      labels: ['Blackjack', 'Paint 2.0'],
       datasets: [{
         label: '# of Votes',
-        data: [12, 19, 3, 5, 2, 3],
-          borderWidth: 3,
-          hoverBackgroundColor: 'darkblue'
+        data: [900, 800],
+          borderWidth: 1,
+        hoverBackgroundColor: 'hotpink',
+        backgroundColor: [
+          'rgba(255, 99, 132, 0.5)',
+          'rgba(153, 102, 255, 0.5)'
+          ]
       }]
     },
     options: {
@@ -19,3 +23,4 @@ const ctx = document.getElementById('myChart');
       }
     }
   });
+
