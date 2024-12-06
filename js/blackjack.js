@@ -147,3 +147,9 @@ function reduceAce(playerSum, playerAceCount) {
     }
     return playerSum
 }
+
+document.addEventListener('DOMContentLoaded', function () {
+    document.querySelector('.reload-btn').addEventListener('click', function () {
+      window.location.reload();
+    });
+  });
