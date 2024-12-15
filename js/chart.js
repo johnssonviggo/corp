@@ -5,13 +5,13 @@ const ctx = document.getElementById('myChart');
     data: {
       labels: ['Blackjack', 'Paint 2.0'],
       datasets: [{
-        label: '# of Votes',
+        label: 'Number of users',
         data: [localStorage.getItem('blackjack-stats'), localStorage.getItem('paint-stats')],
           borderWidth: 1,
-        hoverBackgroundColor: 'hotpink',
+        hoverBackgroundColor: 'Mercury',
         backgroundColor: [
-          'rgba(255, 99, 132, 0.5)',
-          'rgba(153, 102, 255, 0.5)'
+          'rgba(191, 191, 191, 0.5)',
+          'rgba(171, 183, 183, 0.5)'
           ]
       }]
     },
