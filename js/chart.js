@@ -6,7 +6,7 @@ const ctx = document.getElementById('myChart');
       labels: ['Blackjack', 'Paint 2.0'],
       datasets: [{
         label: '# of Votes',
-        data: [900, 800],
+        data: [localStorage.getItem('blackjack-stats'), localStorage.getItem('paint-stats')],
           borderWidth: 1,
         hoverBackgroundColor: 'hotpink',
         backgroundColor: [
@@ -23,4 +23,6 @@ const ctx = document.getElementById('myChart');
       }
     }
   });
+
+  
 

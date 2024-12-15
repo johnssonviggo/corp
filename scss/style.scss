@@ -1,6 +1,10 @@
+  @import "../bootstrap-5.3.3/scss/bootstrap.scss";
+  
+  
+  
   body::before {
     content: "XS";
-    color: red;
+    color: blue;
     font-size: 2rem;
     font-weight: bold;
     position: fixed;
@@ -20,8 +24,9 @@
     body::before {
       content: "SM";
     }
+
   } 
-  
+
   @media (min-width: 768px) {
     body::before {
       content: "MD";
@@ -54,14 +59,14 @@
     fill: brown;
   }
 
-  #buns:hover {
+  .buns:hover {
     fill: rgb(176, 118, 9);
   }
 
-  /* Egen custom CSS här */
 .blackjack_container {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
+  
 }
 
 #dealer-cards img {
